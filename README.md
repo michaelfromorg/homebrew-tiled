@@ -1,18 +1,18 @@
-# Michaelfromorg Tiled
+# Homebrew TILed
 
-## How do I install these formulae?
+Official Homebrew tap for [TILed](https://github.com/michaelfromorg/TILed), a command-line application for keeping a lightweight log of what you learn.
 
-`brew install michaelfromorg/tiled/<formula>`
+## Install
 
-Or `brew tap michaelfromorg/tiled` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "michaelfromorg/tiled"
-brew "<formula>"
+```bash
+brew install michaelfromorg/tiled/til
 ```
 
-## Documentation
+Upgrade later with:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+brew update
+brew upgrade til
+```
+
+The formula installs the checksummed release binary for macOS or Linux on ARM64 or AMD64.
